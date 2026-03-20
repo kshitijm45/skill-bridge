@@ -1,0 +1,240 @@
+{
+  "Python": {
+    "aliases": ["python3", "py", "python scripting", "pyspark"],
+    "prerequisites": [],
+    "category": "Languages",
+    "trend": "rising",
+    "weeks_to_learn": 8
+  },
+  "JavaScript": {
+    "aliases": ["js", "javascript", "es6", "es2015", "node.js", "nodejs"],
+    "prerequisites": [],
+    "category": "Languages",
+    "trend": "stable",
+    "weeks_to_learn": 6
+  },
+  "TypeScript": {
+    "aliases": ["ts", "typescript"],
+    "prerequisites": ["JavaScript"],
+    "category": "Languages",
+    "trend": "rising",
+    "weeks_to_learn": 3
+  },
+  "Java": {
+    "aliases": ["java", "spring boot", "spring", "jvm"],
+    "prerequisites": [],
+    "category": "Languages",
+    "trend": "stable",
+    "weeks_to_learn": 10
+  },
+  "Go": {
+    "aliases": ["golang"],
+    "prerequisites": [],
+    "category": "Languages",
+    "trend": "rising",
+    "weeks_to_learn": 6
+  },
+  "SQL": {
+    "aliases": ["mysql", "postgresql", "postgres", "sqlite", "sql queries", "database queries"],
+    "prerequisites": [],
+    "category": "Data",
+    "trend": "stable",
+    "weeks_to_learn": 4
+  },
+  "Linux": {
+    "aliases": ["unix", "bash", "shell scripting", "shell", "cli", "command line", "systemd", "linux server"],
+    "prerequisites": [],
+    "category": "Infrastructure",
+    "trend": "stable",
+    "weeks_to_learn": 4
+  },
+  "Networking": {
+    "aliases": ["tcp/ip", "tcp ip", "dns", "http", "https", "network fundamentals", "osi model", "tls", "load balancing", "nginx", "network segmentation"],
+    "prerequisites": ["Linux"],
+    "category": "Infrastructure",
+    "trend": "stable",
+    "weeks_to_learn": 6
+  },
+  "Cloud Fundamentals": {
+    "aliases": ["cloud basics", "cloud concepts", "cloud practitioner", "cloud computing", "iaas", "paas", "saas"],
+    "prerequisites": ["Linux", "Networking"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 3
+  },
+  "Docker": {
+    "aliases": ["containers", "containerization", "dockerfile", "docker compose", "container images"],
+    "prerequisites": ["Linux"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 3
+  },
+  "Kubernetes": {
+    "aliases": ["k8s", "kube", "kubectl", "helm", "k8s cluster"],
+    "prerequisites": ["Docker", "Linux"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 6
+  },
+  "Terraform": {
+    "aliases": ["iac", "infrastructure as code", "hcl", "terraform cloud"],
+    "prerequisites": ["Cloud Fundamentals"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 4
+  },
+  "AWS": {
+    "aliases": ["amazon web services", "ec2", "s3", "lambda", "aws cloud", "iam", "vpc", "cloudformation", "boto3"],
+    "prerequisites": ["Cloud Fundamentals", "Linux"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 8
+  },
+  "GCP": {
+    "aliases": ["google cloud", "google cloud platform", "gke", "bigquery", "cloud run", "pub/sub"],
+    "prerequisites": ["Cloud Fundamentals", "Linux"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 8
+  },
+  "Azure": {
+    "aliases": ["microsoft azure", "azure cloud", "azure ad", "azure devops"],
+    "prerequisites": ["Cloud Fundamentals", "Linux"],
+    "category": "Cloud",
+    "trend": "stable",
+    "weeks_to_learn": 8
+  },
+  "CI/CD": {
+    "aliases": ["cicd", "continuous integration", "continuous deployment", "github actions", "jenkins", "gitlab ci", "pipeline automation"],
+    "prerequisites": ["Docker", "Linux"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 3
+  },
+  "React": {
+    "aliases": ["reactjs", "react.js"],
+    "prerequisites": ["JavaScript"],
+    "category": "Frontend",
+    "trend": "stable",
+    "weeks_to_learn": 6
+  },
+  "REST APIs": {
+    "aliases": ["rest", "restful", "api design", "http api", "web api", "rest api"],
+    "prerequisites": ["Networking"],
+    "category": "Backend",
+    "trend": "stable",
+    "weeks_to_learn": 3
+  },
+  "Machine Learning": {
+    "aliases": ["ml", "machine learning", "sklearn", "scikit-learn", "deep learning", "neural networks", "nlp"],
+    "prerequisites": ["Python", "SQL"],
+    "category": "Data",
+    "trend": "rising",
+    "weeks_to_learn": 12
+  },
+  "Data Visualization": {
+    "aliases": ["tableau", "power bi", "data viz", "dashboarding", "charts", "plotly", "matplotlib", "looker"],
+    "prerequisites": ["SQL"],
+    "category": "Data",
+    "trend": "stable",
+    "weeks_to_learn": 4
+  },
+  "Spark": {
+    "aliases": ["apache spark", "pyspark", "spark sql", "databricks"],
+    "prerequisites": ["Python", "SQL"],
+    "category": "Data",
+    "trend": "stable",
+    "weeks_to_learn": 6
+  },
+  "Airflow": {
+    "aliases": ["apache airflow", "dag", "workflow orchestration", "airflow dag"],
+    "prerequisites": ["Python"],
+    "category": "Data",
+    "trend": "rising",
+    "weeks_to_learn": 3
+  },
+  "Log Analysis": {
+    "aliases": ["log management", "splunk", "elk", "elasticsearch", "kibana", "centralized logging", "elk stack", "log aggregation"],
+    "prerequisites": ["Linux"],
+    "category": "Security",
+    "trend": "stable",
+    "weeks_to_learn": 4
+  },
+  "SIEM": {
+    "aliases": ["security information and event management", "splunk siem", "qradar", "sentinel", "microsoft sentinel"],
+    "prerequisites": ["Networking", "Log Analysis"],
+    "category": "Security",
+    "trend": "rising",
+    "weeks_to_learn": 8
+  },
+  "Threat Intelligence": {
+    "aliases": ["threat hunting", "ioc", "indicators of compromise", "mitre att&ck", "mitre attack", "ttp", "ttps"],
+    "prerequisites": ["Networking", "SIEM"],
+    "category": "Security",
+    "trend": "rising",
+    "weeks_to_learn": 10
+  },
+  "Penetration Testing": {
+    "aliases": ["pentesting", "pen testing", "ethical hacking", "burp suite", "metasploit", "ctf", "tryhackme", "hackthebox"],
+    "prerequisites": ["Networking", "Linux"],
+    "category": "Security",
+    "trend": "stable",
+    "weeks_to_learn": 12
+  },
+  "Incident Response": {
+    "aliases": ["ir", "dfir", "forensics", "digital forensics", "incident handling", "triage"],
+    "prerequisites": ["SIEM", "Log Analysis"],
+    "category": "Security",
+    "trend": "rising",
+    "weeks_to_learn": 8
+  },
+  "Cloud Security": {
+    "aliases": ["cspm", "cloud security posture", "cnapp", "cwpp", "cloud security posture management"],
+    "prerequisites": ["AWS", "Networking"],
+    "category": "Security",
+    "trend": "rising",
+    "weeks_to_learn": 8
+  },
+  "DevSecOps": {
+    "aliases": ["devsecops", "sast", "dast", "security in devops", "shift left", "shift-left security", "owasp"],
+    "prerequisites": ["CI/CD", "Docker"],
+    "category": "Security",
+    "trend": "rising",
+    "weeks_to_learn": 6
+  },
+  "Vulnerability Management": {
+    "aliases": ["vuln management", "cve", "nessus", "qualys", "patch management", "vulnerability scanning"],
+    "prerequisites": ["Networking"],
+    "category": "Security",
+    "trend": "stable",
+    "weeks_to_learn": 6
+  },
+  "Git": {
+    "aliases": ["github", "gitlab", "version control", "source control", "git workflow"],
+    "prerequisites": [],
+    "category": "Backend",
+    "trend": "stable",
+    "weeks_to_learn": 2
+  },
+  "System Design": {
+    "aliases": ["distributed systems", "scalability", "microservices", "architecture", "high availability", "system architecture"],
+    "prerequisites": ["REST APIs", "Docker"],
+    "category": "Backend",
+    "trend": "stable",
+    "weeks_to_learn": 12
+  },
+  "Data Structures": {
+    "aliases": ["algorithms", "dsa", "leetcode", "coding interviews", "data structures and algorithms"],
+    "prerequisites": [],
+    "category": "Backend",
+    "trend": "stable",
+    "weeks_to_learn": 8
+  },
+  "Prometheus": {
+    "aliases": ["prometheus", "grafana", "monitoring", "observability", "metrics"],
+    "prerequisites": ["Kubernetes"],
+    "category": "Cloud",
+    "trend": "rising",
+    "weeks_to_learn": 3
+  }
+}

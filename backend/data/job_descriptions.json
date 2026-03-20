@@ -1,0 +1,194 @@
+[
+  {
+    "id": "jd_swe_001",
+    "role": "Software Engineer",
+    "company": "TechCorp (Synthetic)",
+    "required_skills": ["Python", "Data Structures", "SQL", "Git", "REST APIs", "Docker", "System Design"],
+    "nice_to_have": ["Kubernetes", "AWS", "TypeScript"],
+    "description": "Build and maintain backend services for our data platform. Collaborate with cross-functional teams."
+  },
+  {
+    "id": "jd_swe_002",
+    "role": "Software Engineer",
+    "company": "StartupXYZ (Synthetic)",
+    "required_skills": ["Python", "Go", "Docker", "REST APIs", "Git", "Linux", "CI/CD"],
+    "nice_to_have": ["Kubernetes", "AWS", "System Design"],
+    "description": "Build microservices in a fast-paced environment. Ship features weekly."
+  },
+  {
+    "id": "jd_fe_001",
+    "role": "Frontend Engineer",
+    "company": "ProductCo (Synthetic)",
+    "required_skills": ["JavaScript", "TypeScript", "React", "REST APIs", "Git"],
+    "nice_to_have": ["AWS", "CI/CD", "System Design"],
+    "description": "Build responsive user interfaces and component libraries."
+  },
+  {
+    "id": "jd_fe_002",
+    "role": "Frontend Engineer",
+    "company": "UIFirst (Synthetic)",
+    "required_skills": ["JavaScript", "TypeScript", "React", "Git", "REST APIs", "CI/CD"],
+    "nice_to_have": ["Docker", "System Design"],
+    "description": "Lead the frontend architecture for our SaaS product."
+  },
+  {
+    "id": "jd_de_001",
+    "role": "Data Engineer",
+    "company": "DataWorks (Synthetic)",
+    "required_skills": ["Python", "SQL", "Spark", "Airflow", "AWS", "Docker"],
+    "nice_to_have": ["Kubernetes", "Machine Learning", "GCP"],
+    "description": "Design and maintain large-scale data pipelines for analytics."
+  },
+  {
+    "id": "jd_de_002",
+    "role": "Data Engineer",
+    "company": "CloudData (Synthetic)",
+    "required_skills": ["Python", "SQL", "Airflow", "GCP", "Git", "Docker"],
+    "nice_to_have": ["Spark", "Kubernetes", "Machine Learning"],
+    "description": "Build ETL pipelines and data lake infrastructure on GCP."
+  },
+  {
+    "id": "jd_da_001",
+    "role": "Data Analyst",
+    "company": "InsightsCo (Synthetic)",
+    "required_skills": ["SQL", "Python", "Data Visualization", "Git"],
+    "nice_to_have": ["Machine Learning", "AWS", "Airflow"],
+    "description": "Analyze business data, build dashboards, and surface insights to stakeholders across the company."
+  },
+  {
+    "id": "jd_da_002",
+    "role": "Data Analyst",
+    "company": "GrowthMetrics (Synthetic)",
+    "required_skills": ["SQL", "Python", "Data Visualization", "Data Structures"],
+    "nice_to_have": ["Spark", "Machine Learning", "Docker"],
+    "description": "Own product analytics and experiment analysis; partner with PMs to define KPIs and drive decisions."
+  },
+  {
+    "id": "jd_mle_001",
+    "role": "ML Engineer",
+    "company": "AI Solutions (Synthetic)",
+    "required_skills": ["Python", "Machine Learning", "SQL", "Docker", "AWS", "Git"],
+    "nice_to_have": ["Kubernetes", "Spark", "System Design"],
+    "description": "Deploy and monitor machine learning models in production."
+  },
+  {
+    "id": "jd_mle_002",
+    "role": "ML Engineer",
+    "company": "ModelOps (Synthetic)",
+    "required_skills": ["Python", "Machine Learning", "Docker", "Airflow", "Git", "SQL"],
+    "nice_to_have": ["Kubernetes", "GCP", "Data Structures"],
+    "description": "Build ML pipelines and model serving infrastructure at scale. Own model lifecycle from training to production."
+  },
+  {
+    "id": "jd_devops_001",
+    "role": "DevOps Engineer",
+    "company": "InfraFirst (Synthetic)",
+    "required_skills": ["Linux", "Docker", "Kubernetes", "Terraform", "CI/CD", "AWS", "Prometheus"],
+    "nice_to_have": ["Python", "Go", "GCP"],
+    "description": "Build and maintain cloud infrastructure and deployment pipelines."
+  },
+  {
+    "id": "jd_devops_002",
+    "role": "DevOps Engineer",
+    "company": "CloudOps (Synthetic)",
+    "required_skills": ["Linux", "Docker", "Kubernetes", "CI/CD", "Terraform", "Git", "AWS"],
+    "nice_to_have": ["Python", "Prometheus", "Azure"],
+    "description": "Own the deployment infrastructure for microservices on AWS."
+  },
+  {
+    "id": "jd_backend_001",
+    "role": "Backend Engineer",
+    "company": "APIFirst (Synthetic)",
+    "required_skills": ["Python", "REST APIs", "SQL", "Docker", "Git", "System Design"],
+    "nice_to_have": ["Go", "Kubernetes", "AWS"],
+    "description": "Build high-performance APIs and backend services for a SaaS platform."
+  },
+  {
+    "id": "jd_backend_002",
+    "role": "Backend Engineer",
+    "company": "ScaleCo (Synthetic)",
+    "required_skills": ["Go", "REST APIs", "SQL", "Docker", "Linux", "System Design", "Git"],
+    "nice_to_have": ["Kubernetes", "AWS", "CI/CD"],
+    "description": "Design scalable backend systems for a high-traffic platform."
+  },
+  {
+    "id": "jd_cloudsec_001",
+    "role": "Cloud Security Engineer",
+    "company": "Palo Alto Networks (Synthetic)",
+    "required_skills": ["Cloud Security", "AWS", "Networking", "Linux", "Python", "Terraform", "CI/CD"],
+    "nice_to_have": ["Kubernetes", "DevSecOps", "SIEM", "Go"],
+    "description": "Design and enforce cloud security policies across AWS and GCP environments. Work with engineering teams to embed security in CI/CD pipelines."
+  },
+  {
+    "id": "jd_cloudsec_002",
+    "role": "Cloud Security Engineer",
+    "company": "SecureCloud Inc (Synthetic)",
+    "required_skills": ["Cloud Security", "AWS", "Networking", "Vulnerability Management", "Python", "Linux"],
+    "nice_to_have": ["Terraform", "SIEM", "DevSecOps", "Azure"],
+    "description": "Monitor and secure cloud workloads, implement CSPM tooling, and respond to cloud security incidents."
+  },
+  {
+    "id": "jd_soc_001",
+    "role": "SOC Analyst",
+    "company": "Palo Alto Networks (Synthetic)",
+    "required_skills": ["SIEM", "Networking", "Log Analysis", "Incident Response", "Linux"],
+    "nice_to_have": ["Threat Intelligence", "Python", "Cloud Security"],
+    "description": "Monitor security alerts, triage incidents, and coordinate response across the enterprise."
+  },
+  {
+    "id": "jd_soc_002",
+    "role": "SOC Analyst",
+    "company": "CyberDefend (Synthetic)",
+    "required_skills": ["SIEM", "Networking", "Log Analysis", "Incident Response", "Vulnerability Management"],
+    "nice_to_have": ["Threat Intelligence", "Python", "Linux"],
+    "description": "First line of defense against security threats. Investigate alerts and escalate to Tier 2 as needed."
+  },
+  {
+    "id": "jd_devsecops_001",
+    "role": "DevSecOps Engineer",
+    "company": "Palo Alto Networks (Synthetic)",
+    "required_skills": ["DevSecOps", "CI/CD", "Docker", "Kubernetes", "Python", "Linux", "Cloud Security"],
+    "nice_to_have": ["Terraform", "AWS", "SIEM", "Go"],
+    "description": "Embed security controls into the software development lifecycle. Automate vulnerability scanning and policy enforcement."
+  },
+  {
+    "id": "jd_devsecops_002",
+    "role": "DevSecOps Engineer",
+    "company": "ShiftLeft Inc (Synthetic)",
+    "required_skills": ["DevSecOps", "CI/CD", "Docker", "Python", "Git", "Linux", "Vulnerability Management"],
+    "nice_to_have": ["Kubernetes", "Terraform", "Cloud Security"],
+    "description": "Own SAST/DAST tooling integration across engineering teams and track remediation."
+  },
+  {
+    "id": "jd_threatintel_001",
+    "role": "Threat Intelligence Analyst",
+    "company": "Palo Alto Networks (Synthetic)",
+    "required_skills": ["Threat Intelligence", "SIEM", "Networking", "Log Analysis", "Incident Response"],
+    "nice_to_have": ["Python", "Cloud Security", "Linux"],
+    "description": "Research threat actor TTPs, produce actionable intelligence reports, and hunt for threats across the enterprise."
+  },
+  {
+    "id": "jd_threatintel_002",
+    "role": "Threat Intelligence Analyst",
+    "company": "ThreatOps (Synthetic)",
+    "required_skills": ["Threat Intelligence", "SIEM", "Networking", "Log Analysis", "Python"],
+    "nice_to_have": ["Incident Response", "Cloud Security", "Linux"],
+    "description": "Correlate threat intelligence feeds with internal telemetry to proactively identify risks."
+  },
+  {
+    "id": "jd_prodsec_001",
+    "role": "Product Security Engineer",
+    "company": "Palo Alto Networks (Synthetic)",
+    "required_skills": ["Penetration Testing", "Vulnerability Management", "REST APIs", "Python", "Networking", "DevSecOps"],
+    "nice_to_have": ["Cloud Security", "Docker", "SIEM"],
+    "description": "Conduct security reviews and penetration tests on product features. Partner with engineering teams to remediate findings."
+  },
+  {
+    "id": "jd_prodsec_002",
+    "role": "Product Security Engineer",
+    "company": "AppSec Partners (Synthetic)",
+    "required_skills": ["Penetration Testing", "Vulnerability Management", "REST APIs", "Python", "DevSecOps", "Linux"],
+    "nice_to_have": ["Docker", "Networking", "Cloud Security", "CI/CD"],
+    "description": "Perform threat modeling, code security reviews, and application pen testing for web and API products."
+  }
+]

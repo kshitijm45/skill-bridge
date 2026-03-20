@@ -1,0 +1,29 @@
+[
+  {
+    "id": "resume_alex",
+    "name": "Alex Chen",
+    "persona": "Recent CS Graduate",
+    "audience_mode": "graduate",
+    "resume_text": "Alex Chen | B.Tech Computer Science, NIT Trichy (2024) | CGPA 8.4/10\n\nSkills: Python, Machine Learning, SQL, Git, Data Structures, JavaScript, React, REST APIs\n\nProjects:\n- Crop disease detection model using scikit-learn and image features (NLP-style pipeline, 87% accuracy on test set)\n- Built a React web app with REST APIs for college fest registration — 500+ active users during event week\n- SQL database design for hostel room allotment system (normalized schema, 6 tables, used by 3 hostels)\n- Implemented graph algorithms in Python for inter-city route optimization (Dijkstra, BFS, DFS)\n\nInternship: Data Science Intern at Mu Sigma, Bengaluru (Summer 2023)\n- Wrote Python scripts for data cleaning, feature engineering, and exploratory analysis on retail client data\n- Trained classification models using scikit-learn; documented results in Jupyter notebooks\n- Used Git for version control in a team of 5; submitted 15 pull requests over 8 weeks\n\nCourses: Algorithms & Data Structures, Operating Systems, Machine Learning, Database Systems, Computer Networks\n\nAchievements: AIR 2847 in GATE CS 2024 | Finalist, Smart India Hackathon 2023",
+    "skills_hint": ["Python", "Machine Learning", "SQL", "Git", "Data Structures", "JavaScript", "React", "REST APIs"],
+    "suggested_roles": ["Data Engineer", "ML Engineer", "Software Engineer"]
+  },
+  {
+    "id": "resume_sam",
+    "name": "Sam Rivera",
+    "persona": "Career Switcher (Finance → Data)",
+    "audience_mode": "switcher",
+    "resume_text": "Sam Rivera | CFA Level II Candidate | B.Com (Hons), SRCC Delhi | 5 years Financial Analysis → Tech Transition\n\nSkills: Python (intermediate scripting), SQL (queries and joins), Excel (Advanced — pivot tables, VBA macros), Financial Modeling, Data Visualization (Tableau, Excel charts), Stakeholder Management, Project Management\n\nExperience:\n- Senior Financial Analyst at Kotak Mahindra Bank, Mumbai (3 years)\n  - Built Python scripts to automate monthly MIS report generation — saved 8 hours/week\n  - Used SQL to query and join internal banking databases (Oracle DB, 15M+ row tables)\n  - Created Excel dashboards for senior management quarterly reviews pulling data from 6 sources\n  - Coordinated with 10 cross-functional stakeholders across risk, compliance, and treasury teams\n- Junior Financial Analyst at Angel One, Mumbai (2 years)\n  - Excel-based financial models for equity research — DCF and comparable company analysis\n  - Prepared data-driven insight decks for fund managers presented in weekly review calls\n\nRecent Technical Learning:\n- Python for Data Science specialization (Coursera, completed)\n- SQL for Data Analysis (Mode Analytics, completed)\n- Currently studying: Pandas, NumPy, data pipeline concepts, Git basics\n",
+    "skills_hint": ["Python", "SQL", "Git"],
+    "suggested_roles": ["Data Engineer", "Data Analyst", "ML Engineer"]
+  },
+  {
+    "id": "resume_jordan",
+    "name": "Jordan Kim",
+    "persona": "Backend Dev → Cloud Security",
+    "audience_mode": "switcher",
+    "resume_text": "Jordan Kim | Backend Engineer pivoting to Cloud Security | 3 years experience\n\nSkills: Java, Python, SQL, REST APIs, Git, Docker, Linux, Networking (HTTP/HTTPS/DNS/TCP-IP), CI/CD (Jenkins, GitHub Actions)\n\nExperience:\n- Backend Engineer at Razorpay, Bengaluru (3 years)\n  - Built and maintained REST APIs in Java/Spring Boot handling 2M+ daily payment transactions\n  - Containerized 6 microservices with Docker; reduced deployment time by 35%\n  - Managed Jenkins and GitHub Actions CI/CD pipelines across 4 engineering teams\n  - Linux server administration: log rotation, cron jobs, user/group permissions, systemd services\n  - Networking exposure: HTTP/HTTPS, DNS, load balancing (nginx), TLS certificate management for PCI-DSS compliance\n\nSecurity Projects & Self-Study:\n- Home lab: Linux VMs with network segmentation, pfSense firewall, Wireshark packet capture and analysis\n- Completed TryHackMe Pre-Security + SOC Level 1 paths (80+ rooms)\n- Studying CompTIA Security+ (exam scheduled Q3 2025)\n- Applied OWASP Top 10 mitigations in production: fixed SQLi vulnerability and XSS in payment API responses\n- Familiar with log analysis: centralized logging with ELK stack in home lab\n\nMotivation: Applying 3 years of fintech infrastructure and backend expertise toward Cloud Security and DevSecOps roles.",
+    "skills_hint": ["Java", "Python", "SQL", "REST APIs", "Git", "Docker", "Linux", "Networking", "CI/CD", "Log Analysis"],
+    "suggested_roles": ["Cloud Security Engineer", "DevSecOps Engineer", "SOC Analyst"]
+  }
+]
