@@ -10,7 +10,7 @@
 |---|---|
 | **Name** | Kshitij Mitra |
 | **Scenario** | Option 2 — Skill-Bridge Career Navigator |
-| **Estimated time spent** | ~5 hours |
+| **Estimated time spent** | ~5 and half hours |
 | **Demo video** | https://youtu.be/jT8MAH3uRqU |
 | **Design doc** | [DOCUMENTATION.md](DOCUMENTATION.md) |
 
